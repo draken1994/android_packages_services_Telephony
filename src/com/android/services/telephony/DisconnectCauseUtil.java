@@ -119,7 +119,6 @@ public class DisconnectCauseUtil {
             case android.telephony.DisconnectCause.SERVER_ERROR:
             case android.telephony.DisconnectCause.SERVER_UNREACHABLE:
             case android.telephony.DisconnectCause.TIMED_OUT:
-            case android.telephony.DisconnectCause.UNOBTAINABLE_NUMBER:
             case android.telephony.DisconnectCause.VOICEMAIL_NUMBER_MISSING:
             case android.telephony.DisconnectCause.DIAL_MODIFIED_TO_USSD:
             case android.telephony.DisconnectCause.DIAL_MODIFIED_TO_SS:
@@ -264,9 +263,6 @@ public class DisconnectCauseUtil {
                 break;
 
             case android.telephony.DisconnectCause.INVALID_NUMBER:
-            case android.telephony.DisconnectCause.UNOBTAINABLE_NUMBER:
-                resourceId = R.string.callFailed_unobtainable_number;
-                break;
 
             case android.telephony.DisconnectCause.CALL_PULLED:
                 resourceId = R.string.callEnded_pulled;
@@ -438,10 +434,6 @@ public class DisconnectCauseUtil {
 
             case android.telephony.DisconnectCause.INVALID_NUMBER:
                 resourceId = R.string.callFailed_invalid_number_format;
-                break;
-
-            case android.telephony.DisconnectCause.UNOBTAINABLE_NUMBER:
-                resourceId = R.string.callFailed_unobtainable_number;
                 break;
 
             case android.telephony.DisconnectCause.NO_ROUTE_TO_DESTINAON:
@@ -697,7 +689,6 @@ public class DisconnectCauseUtil {
             case android.telephony.DisconnectCause.CALL_FAIL_DESTINATION_OUT_OF_ORDER:
             case android.telephony.DisconnectCause.BEARER_CAPABILITY_NOT_AUTHORIZED:
             case android.telephony.DisconnectCause.USER_NOT_MEMBER_OF_CUG:
-            case android.telephony.DisconnectCause.UNOBTAINABLE_NUMBER:
                 return ToneGenerator.TONE_SUP_ERROR;
 
             case android.telephony.DisconnectCause.ERROR_UNSPECIFIED:
