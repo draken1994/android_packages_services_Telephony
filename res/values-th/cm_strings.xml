@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2014 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incall_screen_settings">การตั้งค่าหน้าจอระหว่างการโทร</string>
+    <string name="show_ssn_label">การแจ้งเตือนกิจกรรม</string>
+    <string name="show_ssn_summary">แสดงการแจ้งเตือนสำหรับกิจกรรมเครือข่ายต่าง ๆ ที่เกี่ยวข้องกับการจัดการโทรเรียก</string>
+    <string name="call_notif_unconditionalCF">ส่งต่อสายแบบไม่มีเงื่อนไขเปิดใช้งานอยู่</string>
+    <string name="call_notif_conditionalCF">การส่งต่อสายเรียกเข้าแบบมีเงื่อนไขเปิดใช้งานอยู่</string>
+    <string name="call_notif_MOcall_forwarding">สายโทรออกถูกส่งต่อ</string>
+    <string name="call_notif_cugcall">การโทรในกลุ่มผู้ใช้แบบปิด</string>
+    <string name="call_notif_outgoing_barred">สายโทรออกถูกขัดขวาง</string>
+    <string name="call_notif_incoming_barred">สายเรียกเข้าถูกขัดขวางจากระยะไกล</string>
+    <string name="call_notif_clir_suppression_rejected">การระงับหมายเลขเจ้าของถูกปฏิเสธโดยเครือข่าย</string>
+    <string name="call_notif_call_deflected">สายถูกส่งต่อจากระยะไกล</string>
+    <string name="call_notif_MTcall_forwarding">สายเข้าถูกส่งต่อ</string>
+    <string name="call_notif_multipartycall">การโทรร่วมแบบหลายสาย</string>
+    <string name="call_notif_callonhold_released">สายถูกตัดจากระยะไกล</string>
+    <string name="call_notif_forwardcheckreceived">สายถูกส่งต่อ</string>
+    <string name="call_notif_callconnectingect">สายการโทรเชื่อมต่อผ่านเทคนิคการโอนสายแบบแม่นยำ</string>
+    <string name="call_notif_callconnectedect">สายถูกเชื่อมต่อผ่านเทคนิคการโอนสายแบบแม่นยำ</string>
+    <string name="preferred_network_mode_td_scdma_lte_gsm_wcdma_cdma_evdo_choice">TD-SCDMA/LTE/GSM/WCDMA/CDMA/EVDO</string>
+    <string name="preferred_network_mode_td_scdma_gsm_wcdma_cdma_evdo_choice">TD-SCDMA/GSM/WCDMA/CDMA/EVDO</string>
+    <string name="preferred_network_mode_td_scdma_gsm_wcdma_lte_choice">TD-SCDMA/GSM/WCDMA/LTE</string>
+    <string name="preferred_network_mode_td_scdma_wcdma_lte_choice">TD-SCDMA/WCDMA/LTE</string>
+    <string name="preferred_network_mode_td_scdma_gsm_wcdma_choice">TD-SCDMA/GSM/WCDMA</string>
+    <string name="preferred_network_mode_td_scdma_gsm_lte_choice">TD-SCDMA/GSM/LTE</string>
+    <string name="preferred_network_mode_td_scdma_gsm_choice">TD-SCDMA/GSM</string>
+    <string name="preferred_network_mode_td_scdma_lte_choice">TD-SCDMA/LTE</string>
+    <string name="preferred_network_mode_td_scdma_wcdma_choice">TD-SCDMA/WCDMA</string>
+    <string name="preferred_network_mode_td_scdma_only_choice">TD-SCDMA เท่านั้น</string>
+    <string name="preferred_network_mode_lte_wcdma_choice">LTE/WCDMA</string>
+    <string name="preferred_network_mode_lte_choice">LTE</string>
+    <string name="preferred_network_mode_global_choice">ทั่วโลก</string>
+    <string name="preferred_network_mode_gsm_wcdma_lte_choice">GSM/WCDMA/LTE</string>
+    <string name="preferred_network_mode_cdma_lte_evdo_choice">CDMA + LTE/EvDo</string>
+    <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_choice">CDMA/EvDo/GSM/WCDMA</string>
+    <string name="preferred_network_mode_evdo_only_choice">EvDo เท่านั้น</string>
+    <string name="preferred_network_mode_cdma_wo_evdo_choice">CDMA w/o EvDo</string>
+    <string name="preferred_network_mode_cdma_evdo_auto_choice">CDMA/EvDo อัตโนมัติ</string>
+    <string name="preferred_network_mode_gsm_wcdma_auto_choice">GSM/WCDMA อัตโนมัติ</string>
+    <string name="preferred_network_mode_wcdma_only_choice">WCDMA เท่านั้น</string>
+    <string name="preferred_network_mode_gsm_only_choice">GSM เท่านั้น</string>
+    <string name="preferred_network_mode_gsm_wcdma_preferred_choice">กำหนดใช้ GSM/WCDMA</string>
+    <string name="msim_mobile_network_settings_title">การตั้งค่าเครือข่ายโทรศัพท์มือถือซิม %d</string>
+    <string name="perm_change_mobile_network">เปลี่ยนรูปแบบครือข่าย</string>
+    <string name="perm_change_mobile_network_desc">อนุญาตให้แอปแก้ไขรูปแบบเครือข่ายปัจจุบัน</string>
+    <string name="choose_network_mode_title">เลือกรูปแบบเครือข่าย</string>
+    <string name="choose_network_mode_system_default">ค่าเริ่มต้นระบบ</string>
+    <string name="cdma_call_settings">การ​ตั้ง​ค่า​โทร CDMA</string>
+    <string name="connected_line_identification_title">การระบุตัวตนสายที่เชื่อมต่อ</string>
+    <string name="connected_line_identification_summary">ปิดใช้งานตัวเลือกนี้หากหมายเลขของผู้รับไม่แสดงในประวัติการโทร</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2014 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="show_ssn_label">Notikmu paziņošana</string>
+    <string name="show_ssn_summary">Parādīt paziņojumus par dažādiem, ar zvanu saistītajiem, tīkla notikumiem</string>
+    <string name="call_notif_unconditionalCF">Ieslēgta beznosacījuma zvanu pāradresācija</string>
+    <string name="call_notif_conditionalCF">Ieslēgta nosacījuma zvanu pāradresācija</string>
+    <string name="call_notif_MOcall_forwarding">Izejošais zvans ir pārsūtīts</string>
+    <string name="call_notif_cugcall">Zvans slēgtā lietotāju grupā</string>
+    <string name="call_notif_outgoing_barred">Izejošie zvani ir liegti</string>
+    <string name="call_notif_incoming_barred">Ienākošos zvanus liedzis attālināts dalībnieks</string>
+    <string name="call_notif_clir_suppression_rejected">Tīkls atteicis sava numura slēpšanu</string>
+    <string name="call_notif_call_deflected">Attālināts dalībnieks pārsūtījis zvanu</string>
+    <string name="call_notif_MTcall_forwarding">Ienākošais zvans ir pārsūtīts</string>
+    <string name="call_notif_multipartycall">Daudzu dalībnieku zvans</string>
+    <string name="call_notif_callonhold_released">Zvans pārtraukts attālināti</string>
+    <string name="call_notif_forwardcheckreceived">Zvans tika pāradresēts</string>
+    <string name="call_notif_callconnectingect">Zvans savienojas caur tiešu zvana pārsūtīšanu</string>
+    <string name="call_notif_callconnectedect">Zvans savienots caur tiešu zvana pārsūtīšanu</string>
+</resources>
